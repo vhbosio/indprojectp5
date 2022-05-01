@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Module_Activation</fullName>
+    <active>true</active>
+    <description>Checks for Roles and Skills assigment before activation</description>
+    <errorConditionFormula>AND(Active__c, OR(ISBLANK(Role__c), ISPICKVAL(Skills__c, &apos;&apos;)))</errorConditionFormula>
+    <errorMessage>Module&apos;s Roles and Skills must be assigned before activating the module.</errorMessage>
+</ValidationRule>

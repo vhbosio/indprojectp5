@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exam_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Exam Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Multiple Choice</fullName>
+                <default>true</default>
+                <label>Multiple Choice</label>
+            </value>
+            <value>
+                <fullName>Hands On Challenge</fullName>
+                <default>false</default>
+                <label>Hands On Challenge</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Module_must_be_active</fullName>
+    <active>true</active>
+    <description>Module must be active for incorporation into trail</description>
+    <errorConditionFormula>Module__r.Active__c  = FALSE</errorConditionFormula>
+    <errorMessage>Module must be active for incorporation into trail</errorMessage>
+</ValidationRule>
